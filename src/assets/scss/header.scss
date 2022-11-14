@@ -1,0 +1,17 @@
+.logo-main {
+  width: 70px;
+  height: 70px;
+}
+
+h1 {
+  align-self: flex-end;
+}
+
+h1:first-letter {
+  text-transform: capitalize;
+}
+
+.icon {
+  vertical-align: -60% !important;
+  cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.ReactModal__Content {
+  opacity: 0;
+}
+
+.ReactModal__Content--after-open {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.ReactModal__Content--before-close {
+  opacity: 0;
+}
+
+.aboutHeader {
+  text-align: center;
+}
+
+.list-element {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.select-amount {
+  width: 100px;
+  float: right;
+}
+
+.personal-access-token-input {
+  width: 400px;
+  float: right;
+}
+
+.form-control-valid {
+  $color: #28a745;
+  border: 1px solid $color;
+  background-color: $color;
+}
+
+.form-control-invalid {
+  $color: #dc3545;
+  border: 1px solid $color;
+  background-color: $color;
+}
+
+.form-control-empty {
+  $color: #ffc107;
+  border: 1px solid $color;
+  background-color: $color;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.theme-selector {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.theme-selector-dark {
+  background-color: #111111;
+}
+
+.theme-selector-light {
+  background-color: #ece1e1;
+}
+
+.theme-selected {
+  border: 3px solid #aaaaaa;
+}
+
+.info-icon {
+  margin-right: 10px;
+}
